@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="username" value="testuser"/>
+	<parameter name="password" value="testpassword"/>
+    <classes>
+      <class name="com.test.BrowserTest"/>
+    </classes>
+  </test> 
+</suite> 
